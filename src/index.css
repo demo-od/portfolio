@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Defines manual class-based dark mode for Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-white text-black dark:bg-zinc-950 dark:text-zinc-100 transition-colors duration-300;
+}
