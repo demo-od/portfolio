@@ -75,12 +75,12 @@ export const projects: Project[] = [
         githubUrl: 'https://github.com/demo-od/demolog',
     },
     {
-        title: 'Real-estate landing page',
+        title: 'Financial expense tracker',
         description:
-            'A real-estate landing page beautifully designed and built with tailwind css and react.',
+            'A full-stack web app built with Next.js, TypeScript, Tailwind CSS, Better-Auth,Neon Postgres and Drizzle ORM, that allows users to track their expenses, with beautiful analytics and charts.',
         tags: ['Tailwind CSS', 'React', 'JavaScript'],
-        liveUrl: 'https://real-estate-kv95.onrender.com/',
-        githubUrl: 'https://github.com/demo-od/real-estate',
+        liveUrl: 'https://vault-tracker-t6a5.vercel.app/',
+        githubUrl: 'https://github.com/demo-od/vault-tracker',
     },
 ];
 
@@ -91,7 +91,7 @@ export const skillCategories = [
     },
     {
         title: 'Backend Development',
-        skills: ['Express.js', 'PHP', 'Laravel', 'REST APIs'],
+        skills: ['Express.js', 'PHP', 'Laravel', 'REST APIs', 'Next.js'],
     },
     {
         title: 'Databases & ORMs',
